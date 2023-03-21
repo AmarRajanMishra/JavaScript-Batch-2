@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+}
+.inputdiv{
+    margin: 10px;
+    
+}
+.inputdiv input{
+    height: 30px;
+    width: 300px;
+}
+.inputbtn{
+    height: 30px;
+    width: auto;
+}
+.storeData{
+    margin-left: 45%;
+}

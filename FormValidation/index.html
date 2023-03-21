@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Validation</h1>
+        <form action="">
+            <input type="password" id="pwd" placeholder="Enter password" onkeyup="return Password()">
+        </form>
+        <div>
+            <h3 id="upper">Password Must Contain Atleast One Upper Case</h3>
+            <h3 id="lower">Password Must Contain Atleast One Lower case</h3>
+            <h3 id="symbol">Password Must Contain Atleast One Special Symbol</h3>
+            <h3 id="number">Password Must Contain Atleast One Number</h3>
+        </div>
+        <div id="store">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
